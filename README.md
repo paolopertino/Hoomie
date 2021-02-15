@@ -15,7 +15,7 @@
 <!-- MARKDOWN LINKS & IMAGES -->
 [hoomie-shield]: https://img.shields.io/badge/Hoomie-App-orange?logo=homeadvisor&style=plastic
 [hoomie-url]: https://hoomie-cdf.web.app/
-[vue-shield]: https://img.shields.io/badge/Vue-Js-green?logo=vue-dot-js&style=plastic
+[vue-shield]: https://img.shields.io/badge/Vue-Js-green?logo=vue.js&style=plastic
 [vue-url]: https://vuejs.org/
 [vuetify-shield]: https://img.shields.io/badge/Vuetify-Js-teal?logo=vuetify&style=plastic
 [vuetify-url]: https://vuetifyjs.com/en/
