@@ -22,4 +22,23 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+/* Styling scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffe082 #121212;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 7px;
+}
+*::-webkit-scrollbar-track {
+  background-color: #121212;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #ffe082;
+  border-radius: 20px;
+  border: 0px solid #121212;
+}
+</style>
