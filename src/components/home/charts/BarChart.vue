@@ -39,9 +39,9 @@ export default {
     this.gradient2 = this.$refs.canvas
       .getContext("2d")
       .createLinearGradient(0, 0, 0, 450);
-    this.gradient2.addColorStop(0, "rgba(255, 164,61, 1)");
-    this.gradient2.addColorStop(0.5, "rgba(255, 164, 61, 0.4)");
-    this.gradient2.addColorStop(1, "rgba(255, 164, 61, 0)");
+    this.gradient2.addColorStop(0, "rgba(200, 0,30, 1)");
+    this.gradient2.addColorStop(0.7, "rgba(200, 0, 30, 0.4)");
+    this.gradient2.addColorStop(1, "rgba(200, 0, 30, 0)");
 
     this.renderChart(
       {
