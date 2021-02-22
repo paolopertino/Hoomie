@@ -16,15 +16,24 @@
 # Introduction
 ## 1.1 General Infos
 Hoomie is an application build with VueJs & VuetifyJs. It aims to track your personal and(/or) group expenses, and to give you useful tools for your daily tasks (such as creating and editing shopping lists, managing a petty cash with your friends and so on). <br>
-This project is the completion of my first learning experience of the VueJs & VuetifyJs foundamentals, so it might be confused and not properly optimized.
+This project is the completion of my first learning experience of the VueJs & VuetifyJs foundamentals, so it might be confused and not properly optimized (some routing problems may appear. Furthermore groups dashboard queries could be improved, collecting them in a single parent component).
 ## 1.2 Hosting & Database
 I used Firebase Hosting to host the project, a NoSQL Firestore DB to manage my datas and Firebase Auth to manage users' authentication.
 
-<p align="center">
-  <a href="https://github.com/paolopertino/Hoomie">
-    <img src="src/assets/db-structure.png" alt="Database Structure" height="256">
-  </a>
-</p>
+![Database Structure](src/assets/db-structure.png)
+
+<!-- PROJECT OVERVIEW AND USER INSTRUCTION -->
+# Instructions [T.B.D.]
+## 2.1 Homepage & SignIn/LogIn
+## 2.2 Personal Dashboard
+### 2.2.1 Your Groups
+### 2.2.2 Personal Informations
+### 2.2.3 Personal Expenses
+## 2.3 Group Dashboard
+### 2.3.1 Group's members
+### 2.3.2 Petty Cash
+### 2.3.3 Group's Shopping Lists
+### 2.3.4 Group's transactions
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
