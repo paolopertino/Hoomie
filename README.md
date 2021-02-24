@@ -25,6 +25,15 @@ I used Firebase Hosting to host the project, a NoSQL Firestore DB to manage my d
 <!-- PROJECT OVERVIEW AND USER INSTRUCTION -->
 # Instructions [T.B.D.]
 ## 2.1 Homepage & SignIn/LogIn
+Once you open Hoomie you'll get to the homepage, which gives you some informations about the project and let you SignIn, Login or going to the dashboard. Click on the highlighted buttons to proceed with your registration or login.
+
+![Homepage](src/assets/homepage.png)
+
+If you are completely new, you have to register to the platform compiling the following form (if your username is already taken, an error will show up):
+
+![SignupForm](src/assets/signin_form.png)
+
+Otherwise, if you only want to login, please insert your credentials into the login form which is very similar to the previous one.
 ## 2.2 Personal Dashboard
 ### 2.2.1 Your Groups
 ### 2.2.2 Personal Informations
