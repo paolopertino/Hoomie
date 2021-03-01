@@ -199,7 +199,8 @@ export default {
        * Sorting data for transactions list.
        */
       let compileList = new Promise((resolve) => {
-        this.transactionsListRaw.forEach((transaction, index) => {
+        let counter = 0;
+        this.transactionsListRaw.forEach((transaction) => {
           let tInfo = transaction.data();
           let tAuthor;
 
@@ -223,7 +224,8 @@ export default {
                 transaction_id: transaction.id,
               });
 
-              if (this.transactionsListRaw.length - 1 == index) resolve();
+              counter++;
+              if (counter == this.transactionsListRaw.length) resolve();
             })
             .catch((error) => {
               console.log(error);

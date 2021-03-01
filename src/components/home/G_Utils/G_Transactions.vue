@@ -260,10 +260,11 @@ export default {
       }
     },
     refreshList() {
+      let counter = 0;
       this.allTransactions = [];
 
       let compileList = new Promise((resolve) => {
-        this.trasactionsListRaw.forEach((transaction, index) => {
+        this.trasactionsListRaw.forEach((transaction) => {
           let tInfo = transaction.data();
           let tAuthor;
 
@@ -287,11 +288,12 @@ export default {
                 transaction_id: transaction.id,
               });
 
-              if (this.trasactionsListRaw.length - 1 == index) resolve();
+              counter++;
+              if (counter == this.trasactionsListRaw.length) resolve();
             })
             .catch((error) => {
               console.log(error);
-              if (this.trasactionsListRaw.length - 1 == index) resolve();
+              resolve();
             });
         });
       });
